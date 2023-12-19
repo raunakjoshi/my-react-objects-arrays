@@ -8,7 +8,7 @@ const CourseList = () => {
       <ul>
         {coursesData.map((course) => (
           <li key={course.id}>
-            <strong>Name:</strong> {course.name}, ,{" "}
+            <strong>Name:</strong> {course.name}
             <strong>CourseInstructor:</strong> {course.instructor}
           </li>
         ))}
